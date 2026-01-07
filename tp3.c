@@ -64,16 +64,16 @@ void displayProducts(Node* tail) {
 int main() {
     Node* tail = createEmptyList();
 
-    Product p3 = {1, "Keyboard", 25};
+    Product p1 = {1, "Keyboard", 25};
     tail = insertAtEnd(tail, p1);
 
     Product p2 = {2, "Mouse", 15};
     tail = insertAtBeginning(tail, p2);
 
-    Product p4 = {3, "Monitor", 120};
+    Product p3 = {3, "Monitor", 120};
     tail = insertAtEnd(tail, p3);
 
-    Product p1 = {4, "printer", 120};
+    Product p4 = {4, "printer", 120};
     tail = insertAtBeginning(tail, p4);
 
     displayProducts(tail);
