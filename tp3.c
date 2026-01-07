@@ -49,7 +49,7 @@ Node* insertAtEnd(Node* tail, Product p) {
 
 void displayProducts(Node* tail) {
     if (tail == NULL) {
-        printf("القائمة فارغة.\n");
+        printf("list is empty.\n");
         return;
     }
     Node* head = tail->next;
