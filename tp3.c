@@ -73,8 +73,8 @@ int main() {
     Product p4 = {3, "Monitor", 120};
     tail = insertAtBeginning(tail, p3);
 
-    Product p1 = {3, "Monitor", 120};
-    tail = insertAtEnd(tail, p3);
+    Product p1 = {4, "printer", 120};
+    tail = insertAtEnd(tail, p4);
 
     displayProducts(tail);
 
